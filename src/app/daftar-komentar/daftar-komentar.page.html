@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title>Daftar Komentar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <p style="margin-left: 20px; font-weight: bold;">Komentar</p>
+  <div class="komentar">
+      <h3 name="nama1" id="nama1"></h3>
+  <h5 name="konten1" id="konten1" (click)="goTokonten1()"></h5>
+  </div><br>
+  <div class="komentar">
+      <h3 name="nama2" id="nama2"></h3>
+    <h5 name="konten2" id="konten2" (click)="goTokonten2()"></h5>
+  </div><br>
+  <div class="komentar">
+      <h3 name="nama3" id="nama3"></h3>
+      <h5 name="konten3" id="konten3" (click)="goTokonten3()"></h5>
+  </div>
+
+</ion-content>

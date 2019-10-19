@@ -35,6 +35,16 @@ export class AppComponent {
       title: 'Tambah Produk',
       url: '/tambah-prod',
       icon: 'add'
+    },
+    {
+      title: 'Daftar Artikel',
+      url: '/daftar-artikel',
+      icon: 'add'
+    },
+    {
+      title: 'Daftar Komentar',
+      url: '/daftar-komentar',
+      icon: 'add'
     }
   ];
 

@@ -17,7 +17,12 @@ const routes: Routes = [
   },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'keranjang', loadChildren: './keranjang/keranjang.module#KeranjangPageModule' },
-  { path: 'tambah-prod', loadChildren: './tambah-prod/tambah-prod.module#TambahProdPageModule' }
+  { path: 'tambah-prod', loadChildren: './tambah-prod/tambah-prod.module#TambahProdPageModule' },
+  { path: 'daftar-artikel', loadChildren: './daftar-artikel/daftar-artikel.module#DaftarArtikelPageModule' },
+  { path: 'detil-artikel/[post_id]', loadChildren: './detil-artikel/detil-artikel.module#DetilArtikelPageModule' },
+  { path: 'daftar-komentar', loadChildren: './daftar-komentar/daftar-komentar.module#DaftarKomentarPageModule' },
+  { path: 'detil-artikel', loadChildren: './detil-artikel/detil-artikel.module#DetilArtikelPageModule' },
+  { path: 'detil-komentar', loadChildren: './detil-komentar/detil-komentar.module#DetilKomentarPageModule' }
 ];
 
 @NgModule({
